@@ -27,7 +27,7 @@ namespace MyRecursion
             //}
             //TimingCinema.Duration = currentTime;
 
-            TimingCinema.Duration = new List<int>() { 120, 160, 170, 140 ,100,140};
+            TimingCinema.Duration = new List<int>() { 120, 160, 170, 140 };
             TimingCinema.Duration.Sort();
             TimingCinema timingCinema = new TimingCinema(14 * 60);
             timingCinema.CreateScheduleBase();
