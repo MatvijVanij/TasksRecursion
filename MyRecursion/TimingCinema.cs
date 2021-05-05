@@ -68,7 +68,7 @@ namespace MyRecursion
             {
                 foreach (int film in CurrentDuration)
                 {
-                    Console.Write(film / 60 + ":" + film % 60);
+                    Console.Write(film + " " );
                 }
                 Console.WriteLine();
             }

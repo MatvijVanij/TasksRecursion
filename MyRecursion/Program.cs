@@ -38,7 +38,7 @@ namespace MyRecursion
             var best = timingCinema.FindTimeShowForCinema();
             foreach (int qqq in best.CurrentDuration)
             {
-                Console.Write(qqq / 60 + ":" + qqq % 60);
+                Console.Write(qqq  +" " );
                 Console.WriteLine(  );
             }
 
